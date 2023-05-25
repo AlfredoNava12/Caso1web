@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Usuarios</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Registro de Usuarios para una conferencia</h1>
+    <form>
+      <fieldset>
+        <legend>Registro</legend>
+  <table>
+      <label for="nombre">Nombre completo:</label>
+      <input type="text" id="nombre" name="nombre" required>
+    <br>
+    <br>
+      <label for="correo">Correo electrónico:</label>
+      <input type="email" id="correo" name="correo" required>
+    <br>
+    <br>
+      <label for="numero">Número de telefono:</label> 
+      <input type="numero" id="numero" name="telefono" required>
+    <br>
+    <br>
+      <label for="edad">Ingresa tu edad:</label>
+      <input type="edad" id="edad" name="edad">
+    <br>
+    <br>
+      <label for="genero">Género:</label>
+      <select name="genero" id="genero">
+      <option value="M">Masculino</option>
+      <option value="F">Femenino</option>
+      <option value="X">Indefinido</option>
+      </select>
+    <br>
+    <br>
+      <label for="ocupacion">Ocupación:</label>
+      <select name="Ocupación" id="Ocupación">
+        <option value="a">Estudiante</option>
+        <option value="b">Maestro</option>
+        <option value="c">Abogado</option>
+        <option value="d">Otro trebajo</option>
+        </select>
+    <br>
+    <br>
+      <label>Selecciona tu talla de camiseta:</label>
+      <select name="camisetas" id="camisetas">
+        <option value="1">S</option>
+        <option value="2">M</option>
+        <option value="3">L</option>
+        <option value="4">XL</option>
+    </select>
+    <br>
+    <tr> 
+      <td>
+          <label for="PreferenciasDietéticas">Selecciona Preferencias Dietéticas</label>
+          <select name="Preferencias Dietéticas" id="Preferencias Dieteticas">
+              <option value="1">Vegetariano</option>
+              <option value="2">Vegano</option>
+              <option value="3">Sin gluten</option>
+              <option value="4">Sin restricciones</option>
+          </select>
+      </td>
+  </tr>
+  <br>
+      
+    </fieldset>
+  </table>
+  <br>
+    <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
